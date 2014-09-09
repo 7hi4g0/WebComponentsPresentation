@@ -1,0 +1,84 @@
+[
+    {
+        "uri": "start.html",
+        "id": "title",
+        "class": "step title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "scale": 4
+        }
+    },
+    {
+        "uri": "roteiro.html",
+        "id": "roteiro",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -1000,
+            "scale": 5,
+            "rotate-y": 180
+        }
+    },
+    {
+        "uri": "custom-elements.html",
+        "id": "custom-elements",
+        "class": "step specs",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -1000,
+            "scale": 4,
+            "rotate": 0
+        }
+    },
+    {
+        "uri": "template.html",
+        "id": "template",
+        "class": "step specs",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -1000,
+            "scale": 4,
+            "rotate": 0
+        }
+    },
+    {
+        "uri": "shadow-dom.html",
+        "id": "shadow-dom",
+        "class": "step specs",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -1000,
+            "scale": 4,
+            "rotate": 0
+        }
+    },
+    {
+        "uri": "import.html",
+        "id": "import",
+        "class": "step specs",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": -1000,
+            "scale": 4,
+            "rotate": 0
+        }
+    },
+    {
+        "uri": "custom-elements-overview.html",
+        "id": "custom-elements-overview",
+        "class": "step spec-overview",
+        "data": {
+            "x": -1200,
+            "y": -836,
+            "z": -1000,
+            "scale": 2,
+            "rotate": 0
+        }
+    }
+]

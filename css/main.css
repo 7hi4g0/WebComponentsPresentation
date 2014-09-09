@@ -1,0 +1,89 @@
+.step
+{
+	width: 1200px;
+}
+
+	.step h2
+	{
+		font-size: 78px;
+		font-weight: bold;
+	}
+
+[id$=-overview]:not(.active),
+#roteiro:not(.active)
+{
+	opacity: 0;
+}
+
+#title:not(.active)
+{
+	opacity: 0.3;
+}
+
+.title h1
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.specs
+{
+	padding: 0px;
+}
+
+.spec
+{
+	height: 836px;
+	padding: 40px;
+	font-size: 96px;
+	box-sizing: border-box;
+}
+
+	.spec h2
+	{
+		font-size: 156px;
+	}
+
+.impress-on-template #custom-elements,
+.impress-on-shadow-dom #custom-elements,
+.impress-on-shadow-dom #template,
+.impress-on-import #custom-elements,
+.impress-on-import #template,
+.impress-on-import #shadow-dom
+{
+	opacity: 0.8;
+}
+
+#custom-elements .spec
+{
+	background-color: hsl(215, 90%, 65%);
+	-webkit-transform: scale(0.5) translate(-50%, -50%);
+}
+
+#template .spec
+{
+	background-color: hsl(35, 90%, 65%);
+	-webkit-transform: scale(0.5) translate(50%, -50%);
+}
+
+#shadow-dom .spec
+{
+	background-color: hsl(355, 90%, 65%);
+	-webkit-transform: scale(0.5) translate(-50%, 50%);
+}
+
+#import .spec
+{
+	background-color: hsl(120, 90%, 65%);
+	-webkit-transform: scale(0.5) translate(50%, 50%);
+}
+
+.spec-overview
+{
+	height: 836px;
+}
+
+#custom-elements-overview.spec-overview
+{
+	background-color: hsl(215, 90%, 65%);
+}
